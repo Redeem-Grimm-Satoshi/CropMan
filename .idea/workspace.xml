@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d57d46-fa6b-4de0-87c9-e945f622d727" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zolix/cropman/Controller/CropManController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zolix/cropman/Controller/CropManController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zolix/cropman/CropMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zolix/cropman/CropMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zolix/cropman/View/cropmanview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/zolix/cropman/View/cropmanview.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
       <updated>1696638576518</updated>
       <workItem from="1696638577159" duration="893000" />
       <workItem from="1696639482256" duration="2478000" />
-      <workItem from="1696642258152" duration="8853000" />
+      <workItem from="1696642258152" duration="13058000" />
     </task>
     <task id="LOCAL-00001" summary="CropMan Files">
       <created>1696665232613</created>
