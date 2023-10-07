@@ -6,12 +6,13 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class CropManController {
-
 
     @FXML
     private Button openImageBtn;
@@ -27,6 +28,13 @@ public class CropManController {
 
     @FXML
     void initialize(){
+
+        openImageBtn.setOnAction(event -> {
+            imageChooser.setTitle("Open Image");
+            File file=imageChooser.showOpenDialog(new Stage());
+        });
+
+
 
 
 
