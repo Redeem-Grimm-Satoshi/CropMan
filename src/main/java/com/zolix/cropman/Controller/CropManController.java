@@ -30,7 +30,11 @@ public class CropManController {
     void initialize(){
 
         openImageBtn.setOnAction(event -> {
+
+            //file opener with .jpg extension filter
             imageChooser.setTitle("Open Image");
+            FileChooser.ExtensionFilter exfilterJPG=new FileChooser.ExtensionFilter("JPG files (*.JPG)", "*.JPG");
+            imageChooser.getExtensionFilters().addAll(exfilterJPG);
             File file=imageChooser.showOpenDialog(new Stage());
         });
 
